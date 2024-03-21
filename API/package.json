@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server/server.js"
+    "start": "nodemon server/server.js",
+    "compile": "babel JSX --presets @babel/react --out-dir public",
+    "watch": "babel JSX --presets @babel/react --out-dir public --watch --verbose"
   },
   "repository": {
     "type": "git",
