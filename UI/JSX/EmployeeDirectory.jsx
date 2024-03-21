@@ -104,7 +104,7 @@ export default NavigationParams(EmployeeDirectory)
 // Function to make a GraphQL request to the server.
 async function graphqlRequest(queryString, variableValue = {}) {
 	try {
-		const result = await fetch("http://localhost:8000/graphql", {
+		const result = await fetch("http://localhost:8787/graphql", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({ query: queryString, variables: variableValue }),
