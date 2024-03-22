@@ -1,0 +1,186 @@
+/* Custom CSS */
+
+.emp-directory-container {
+  text-align: center;
+}
+
+.emp-search {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.emp-search-form {
+  margin-bottom: 15px;
+}
+
+.Button-search {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+.emp-search {
+  list-style-type: none;
+  padding: 0;
+}
+
+.create-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.create-form {
+  margin-bottom: 15px;
+}
+
+.error-message {
+  color: red;
+}
+
+.create-button {
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
+  width: 100px;
+  margin: 10px auto;
+}
+
+.table-container {
+  text-align: center;
+  margin-top: 25px;
+}
+
+.emptable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.emptable th,
+.emptable td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.emptable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.emptable th {
+  background-color: black;
+  color: white;
+}
+
+/* Column-specific styles */
+.emptable th:nth-child(1),
+.emptable td:nth-child(1) {
+  width: 20%;
+}
+
+.emptable th:nth-child(2),
+.emptable td:nth-child(2) {
+  width: 20%;
+}
+
+.emptable th:nth-child(3),
+.emptable td:nth-child(3) {
+  width: 20%;
+}
+
+.emptable th:nth-child(4),
+.emptable td:nth-child(4) {
+  width: 20%;
+}
+
+/* For the labels */
+.emptable th {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 20%;
+}
+
+.create-form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  align-items: center;
+}
+
+.create-form label {
+  margin-top: 10px;
+}
+
+span {
+  display: block;
+}
+
+/* CSS for Navigation Bar */
+.navbar {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  text-align: center;
+}
+
+.navbar a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+.employee-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
